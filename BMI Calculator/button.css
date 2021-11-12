@@ -82,3 +82,28 @@ p{
 	font-size:5mm;
 }
 
+footer {
+  font-weight: 300;
+  display: flex;
+  box-sizing: border-box;
+  justify-content: space-evenly;
+  padding: 2rem;
+  background: #e3f2fd;
+  border-top: 4px solid gray;
+}
+
+footer > p {
+  margin: 2rem;
+}
+
+footer i {
+  vertical-align: middle;
+}
+
+@media (max-width: 28.75em) {
+  footer {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
