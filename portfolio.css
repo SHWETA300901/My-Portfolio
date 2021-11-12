@@ -97,24 +97,6 @@ img {
   display: flex;
   margin-right: 2rem;
 }
-@media (max-width: 768px)
-{
-  .projects-grid{
-    width: 100%;
-  }
-}
-@media (min-width: 768px) and (max-width: 1200px)
-{
-  .projects-grid{
-    width: 50%;
-  }
-}
-@media (min-width: 1201px)
-{
-  .projects-grid{
-    width: 33%;
-  }
-}
 
 @media (max-width: 28.75em) {
   .nav {
